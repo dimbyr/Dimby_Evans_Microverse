@@ -2,27 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title> FCC: Survey Form </title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
-<p> Hello World! we are software developer!</p>
+
+  
+  <h1 id = 'title'> freeCodeCamp Survey Form <h1>
+  <p id ='description'> Thank you for taking the time to help us improve the platform </p>
+
+  <form id = "survey-form">
+    <label for= 'name' id="name-label">Name:</label>
+    <input id = 'name' type="text" name="email" placeholder="name" required><br><br>
+
+    <label for ='email' id="email-label" >email:</label>
+    <input type="email" id="email" name="email" placeholder="email" required><br><br>
+
+    <label for="number" id='number-label'>Age</label>
+    <input type="number" id="number" name="number" placeholder="number" min="0" max="100"><br><br>
+
+    <label for="dropdown"> Dropdown </label>
+    <select name="dropdown" id="dropdown">
+      <option value="a"> first </option>
+      <option value="b"> second </option>
+      <option value="c"> Third </option>
+    </select>
+  <br>
+
+  <p>Please select:</p>
+  <input type="radio" id="name" name="age" value="male">
+  <label for="male">Child</label><br>
+  <input type="radio" id="b" name="age" value="female">
+  <label for="female">Young</label><br>
+  <input type="radio" id="other" name="age" value="other">
+  <label for="other">Old</label>
+
+  <br>  
+
+  <p>Please select:</p>
+  <input type='checkbox' id="face" name="mood" value="male">
+  <label for="male">Happy</label><br>
+  <input type='checkbox' id="heart" name="amood" value="female">
+  <label for="female">Glad</label><br>
+  <input type='checkbox' id="mind" name="mood" value="other">
+  <label for="other">Kind</label>
+
+  <br>  
+
+  <textarea name="extra" id="extra" cols="30" rows="10"> Extra text </textarea>
+
+
+    <br>
+    <input id="submit" type="submit" value="Submit">
+  </form>
 
   </body>
 </html>
