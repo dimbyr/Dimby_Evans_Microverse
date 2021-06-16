@@ -1,0 +1,32 @@
+body{
+    font-family: "poppins";
+    line-height: 1.4;
+    Background-color: #D7DCDD;
+    width: 500px;
+    margin: auto;
+  }
+  form {
+    background: rgb(147, 3, 3, 0.2);
+    padding: 3 rem, 4rem;
+    border-radius: 2rem;
+    width: 600px;
+    margin: auto;
+  }
+  .submit-button{
+    width: 100%;
+    padding: 1em;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .input-headings{
+  margin: 0, auto 1.2rem auto;
+  padding: 0.25rem;
+  }
+  form-inputs{
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 0.25rem 0.
+  }
